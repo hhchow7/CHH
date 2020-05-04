@@ -615,6 +615,15 @@ footer p{
     
   }
 
+  .ptext{
+    /* margin: auto;
+    padding: 270px; */
+
+    
+    top:30%;
+    width:90%;
+  }
+
   strong{
     font-size: 32px;
   }
