@@ -52,7 +52,7 @@ body, html{
   
   .pimg4{
 
-    background-image:url('https://hhchow7.github.io/image4.jpg');
+    background-image:url('images//image4.JPG');
     height:100%;
     /* overflow: auto; */
 
@@ -61,6 +61,7 @@ body, html{
   .section{
     text-align:center;
     padding:50px 80px;
+    
   }
   
   .section-light{
