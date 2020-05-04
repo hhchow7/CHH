@@ -61,7 +61,7 @@ body, html{
   .section{
     text-align:center;
     padding:50px 80px;
-    
+
   }
   
   .section-light{
@@ -589,11 +589,11 @@ footer p{
     background-attachment:scroll;
     background-position: center;
     background-size       : cover;
-     /* top: 0; 
+     top: 0; 
     left: 0; 
     
     min-height: 100%; 
-    min-width: 100%; */
+    min-width: 100%;
   }
 
   #navigationBar a{
