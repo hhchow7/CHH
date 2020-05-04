@@ -1,0 +1,868 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:#666;
+
+   
+  }
+  
+  .pimg1, .pimg2, .pimg3,.pimg4{
+      
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+  
+    /*
+      fixed = parallax
+      scroll = normal
+    */
+    background-attachment:fixed;
+
+    
+  
+  }
+
+  .container{
+    padding-top: 10px;
+    width: 80%;
+    margin:auto;
+    /* overflow : hidden; */
+}
+  
+  .pimg1{
+    background-image:url('images/selective-focus-photo-of-green-telephone-955081.jpg');
+    min-height:100%;
+  }
+  
+  .pimg2{
+    background-image:url('images/image2.jpg');
+    min-height:65%;
+  }
+  
+  .pimg3{
+    background-image:url('images/image3.jpg');
+    min-height:680px;
+  }
+  
+  .pimg4{
+
+    background-image:url('images/image4.jpg');
+    height:100%;
+    /* overflow: auto; */
+
+  }
+
+  .section{
+    text-align:center;
+    padding:50px 80px;
+  }
+  
+  .section-light{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: auto;
+    background-color:#f4f4f4;
+    color:#666;
+    text-align: justify;
+    
+  }
+  .section-light h2{
+    text-align: center;
+  }
+
+  .section-light p{
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .section-dark{
+  
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background-color:#282e34;
+    color:#ddd;
+    min-height:400px;
+    width:100%;
+    letter-spacing:2px;
+    text-transform:uppercase;
+    padding-left: 0px;
+    font-size:20px;
+  }
+  
+  .ptext{
+    /* margin: auto;
+    padding: 270px; */
+
+    position:absolute;
+    top:50%;
+    left: 10%;
+    text-align:center;
+    color:white;
+    font-size:20px;
+ 
+    width:80%;
+  }
+
+  .ptext2{
+    position:absolute;
+    top:10%;
+    width:100%;
+    text-align:center;
+    color:white;
+    font-size:28px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+  }
+
+  .ptext3{
+    position:absolute;
+    top:10%;
+    width:100%;
+    text-align:center;
+    color:white;
+    font-size:28px;
+    letter-spacing:8px;
+  
+  }
+
+  .ptext3 h3{
+        font-size: 35px;
+       text-transform:uppercase;
+  }
+  
+  .ptext .border{
+    background-color:#111;
+    color:#fff;
+    
+  }
+  
+  .ptext .border.trans{
+    background-color:transparent;
+  }
+  
+
+
+  #navigationBar{
+
+    padding-top: 3px;   
+    display: flex;
+     justify-content: center;
+    background-color: black;
+    z-index: 99;
+    /* margin-bottom: 30px; */
+}
+
+#navigationBar a {
+
+  
+    text-transform: uppercase;
+    margin:3px;
+    overflow: hidden;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 10px;
+
+    position:relative;
+
+    letter-spacing: 1.5px;
+    
+    
+    
+  }
+
+  #navigationBar a::before{
+
+    
+        content: '';
+        position: absolute;
+        top:3px;
+        bottom:3px;
+        left: 3px;
+        right:3px;
+        background: black;
+        z-index: -1;
+  }
+
+  #navigationBar a::after{
+
+    content: '';
+    position: absolute;
+    top:0;
+    bottom:0;
+    left: 0;
+    right:0;
+    background: #5577CD;
+    transform: rotate(0deg) translate(-50%,70%);
+    transition: transform 300ms;
+    z-index: -2;
+}
+
+#navigationBar  a:hover::after{
+        transform: rotate(0) translate(0,0);
+    }
+  
+
+
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 60px;
+  }
+ 
+/*Home*/
+
+
+
+ strong{
+  
+  font-family: "Georgia", Times, serif;
+  font-size: 55px;
+  text-align:center;
+  
+}
+
+em{
+  
+  /* text-align:justify; */
+  font-family: "Times New Roman", Times, serif;
+  font-size:  35px;
+  
+}
+
+
+  /*Education*/
+  #asideHeader{
+
+    width: 20%;
+    float: left;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+#school{
+   font-size: 15px;
+    width: 70%;
+    float: right;
+    letter-spacing: 1.5px;
+    
+}
+
+#school h3{
+
+    font-size: 23px;
+}
+
+/*Employemnt*/
+#company{
+   
+    font-size: 15px;
+    width: 70%;
+    float: right;
+    letter-spacing: 1.8px;
+    
+}
+
+#company h3{
+  color:#C7C6C6;
+  font-family: "Georgia", Times, serif;
+  font-size: 30px;
+
+}
+#company p{
+  font-family: "Times New Roman", Times, serif;
+  color:#C7C6C6;
+  line-height: 40px;
+  font-size: 20px;
+
+}
+
+.companyDetail{
+
+  /* text-align: center; */
+}
+
+
+/*Skill*/
+
+#skill{
+
+    height: 95vh;
+    width: 100%;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+#skillGallery{
+   margin-top: 10px;
+    width: 70%;
+    float: right;
+    
+
+}
+
+.skillSet{
+    text-align: center;
+    width: 33%;
+    float: left;
+    
+}
+
+.skillSet h3{
+    font-size: 20px;
+}
+
+.skillSet img{
+
+    margin: auto;
+    border-radius: 60%;
+    width: 100px;; 
+    height: 100px;
+}
+
+.star-outer{
+        position: relative;
+        display: inline-block;
+        font-size: 16px;
+}
+.star-inner{
+     position: absolute;
+     top: 0;
+     left:0;
+     white-space: nowrap;
+     overflow: hidden;
+     width: 0;
+}
+
+.star-outer::before{
+
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #ccc;
+}
+
+.star-inner::before{
+
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #f8ce0b;
+}
+/*Project*/
+#project{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    min-height: 850px;
+}
+
+#project h3{
+        padding-top: 35px;
+        text-align: center;
+        font-size:50px;
+
+}
+
+.projectBox{
+    
+    padding-top: 20px;
+    text-align: center;
+    width: 48%;
+    float: left;
+    color: black;
+  
+
+}
+
+.projectBox h5{
+
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+
+.projectBox p{
+
+    font-family: "Georgia", Times, serif;
+    font-size: 20px;
+  
+}
+
+
+.photoSlide_fyp{
+  margin: auto;
+  width: 50%;
+  height: 20%;
+}
+
+.photoSlide_web{
+
+  margin: auto;
+  padding-top: 50px;
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+/* Project ::Hover*/
+
+
+/* .card{
+
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform:translate(-50%,-50%);
+      width: 300px;
+      height: 400px;
+      transform-style: preserve-3d;
+      perspective: 600px;
+
+
+}
+
+.card .front{
+
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backface-visibility: hidden;
+    transform: rotateX(0deg);
+    transition: 0.5s;
+}
+
+.card:hover .front{
+
+  transform: rotateX(-180deg);
+  
+}
+
+
+.card .back{
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; 
+  background: #000;
+  backface-visibility: hidden;
+  transform: rotateX(180deg);
+  transition: 0.5s;
+}
+
+.card .back::before{
+
+
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -50%;
+      width: 100%;
+      height: 100%;
+      background: rgba(255, 255, 255, 2) ;
+
+}
+
+.card:hover .back{
+
+ 
+  transform: rotateX(0deg);
+  
+  
+}
+
+.card .back .photoDetails{
+
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    transform: translateY(-50%);
+}
+
+.card .back .photoDetails h2{
+
+      margin: 0;
+      padding: 0;
+      font-size: 24px;
+      color: #5577CD;
+
+}
+
+.card .back .photoDetails h2{
+
+      color: #f8ce0b;
+      font-size: 16px;
+
+}
+
+.social-icon{
+
+    padding: 10px 0;
+}
+
+.social-icon a{
+
+      display: inline-block;
+      width: 36px;
+      height: 36px;
+      text-align: center;
+      background: #262626;
+      color: #f8ce0b;
+      text-decoration: none;
+      border-radius: 50%;
+      transition: 0.5s;
+}
+
+.social-icon a .fa{
+
+    line-height: 36px;
+
+}
+
+.social-icon a:hover{
+
+    background: #e91e63;
+
+} */
+
+
+/*Contact*/
+
+.ptext3 .contactInfo{
+    color: black;
+    margin-top: 100px;
+    font-size: 30px;
+
+}
+
+
+/*Footer*/
+footer{
+  position: relative;
+  text-align: center;
+  color: #f2f2f2;
+  background-color: #333;
+  margin-top: 0px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+}
+
+
+footer ul{
+  
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+    display: flex;
+}
+
+footer ul li{
+  
+      list-style: none;
+
+}
+
+footer ul li a{
+  
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    margin: 0 10px;
+    transition: .5s;
+
+}
+
+
+footer ul li a span{
+
+      position: absolute;
+      transition: transform .5s;
+
+}
+
+footer ul li a span:nth-child(1),
+footer ul li a span:nth-child(3){
+
+    width: 100%;
+    height: 1px;
+    background: white;
+}
+
+footer ul li a span:nth-child(1){
+
+    top:o;
+    left:0;
+    transform-origin: right;
+
+}
+
+
+footer ul li a:hover span:nth-child(1){
+
+ 
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform .5s;
+
+}
+
+
+
+footer ul li a span:nth-child(3){
+
+  bottom:0;
+  left:0;
+  transform-origin: left;
+
+}
+
+
+footer ul li a:hover span:nth-child(3){
+
+
+transform-origin: right;
+transform: scaleX(0);
+transition: transform .5s;
+
+}
+
+
+
+footer ul li a span:nth-child(2),
+footer ul li a span:nth-child(4){
+
+    width: 1px;
+    height: 100%;
+    background: white;
+}
+
+footer ul li a span:nth-child(2){
+
+    top:o;
+    left:0;
+    transform:scaleY(0);
+    transform-origin: bottom;
+
+}
+
+
+footer ul li a:hover span:nth-child(2){
+
+ 
+  transform-origin: top;
+  transform: scaleY(1);
+  transition: transform .5s;
+
+}
+
+footer ul li a span:nth-child(4){
+
+  top:o;
+  right:0;
+  transform:scaleY(0);
+  transform-origin: top;
+
+}
+
+
+footer ul li a:hover span:nth-child(4){
+
+
+transform-origin: bottom;
+transform: scaleY(1);
+transition: transform .5s;
+
+}
+
+
+footer p{
+    margin-top: 110px;
+
+}
+
+
+@media(max-width:800px){
+  .pimg1, .pimg2, .pimg3,.pimg4{
+    background-attachment:scroll;
+    background-position: center;
+    background-size       : cover;
+     /* top: 0; 
+    left: 0; 
+    
+    min-height: 100%; 
+    min-width: 100%; */
+  }
+
+  #navigationBar a{
+    display: none;
+  }
+
+  
+
+  #asideHeader{
+  
+    float: none;
+    width: 100%;
+    
+  }
+
+  /*Home*/
+
+  strong{
+    font-size: 38px;
+  }
+  
+  em{
+    font-size:  25px;
+  }
+
+
+  /*EDUCATION*/
+
+  .pimg2{
+
+    min-height: 500px;
+
+
+  }
+  #school{
+    float: none;
+    width: 100%;
+    
+    
+  }
+
+  /*EMPLOYMNET*/
+
+  .section-dark{
+    position: relative;
+    min-height: 500px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+      /*PUSH*/
+  }
+ 
+
+  #company h3{
+    margin: auto;
+    font-size: 25px;
+  
+  }
+  #company p{
+    margin: auto;
+    font-size: 15px;
+  
+  }
+
+    /*SKILLS*/
+    #skill{
+
+      
+  }
+  
+  #skillGallery{
+   
+      float: none;
+      display: inline;
+  
+  }
+  
+  .skillSet{
+      margin: auto;
+      width: 30%;
+  }
+  
+  .skillSet h3{
+      font-size: 17px;
+  }
+  
+  .skillSet img{
+  
+      margin: auto;
+      border-radius: 60%;
+      width: 100px;; 
+      height: 100px;
+  }
+
+  /*PROJECT*/
+  #project{
+    
+    min-height: 1500px;
+}
+
+#project h3{
+        padding-top: 35px;
+        text-align: center;
+        font-size:40px;
+
+}
+
+.projectBox{
+    
+    margin: auto;
+    width: 95%;
+    float: none;
+   
+  
+
+}
+
+.projectBox h5{
+
+    font-size: 28px;
+
+}
+
+.projectBox p{
+
+    font-size: 20px;
+  
+}
+
+
+}
+
+
+@media(max-width:600px){
+
+  #project{
+    
+    min-height: 1200px;
+}
+
+
+}
