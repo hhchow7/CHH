@@ -700,15 +700,18 @@ footer p{
  
   
   #skillGallery{
-      
+      margin: auto;
+      /* background-color: hotpink; */
+      width: 95%;
       float: none;
-      display: inline;
+      display: inline-block;
+      box-sizing: border-box;
   
   }
   
   .skillSet{
-      margin: auto;
-      width: 45%;
+      /* margin: auto; */
+      width: 50%;
   }
   
   .skillSet h3{
