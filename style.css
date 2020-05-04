@@ -665,11 +665,12 @@ footer p{
     /* padding-left: 20px;
     padding-right: 20px; */
     margin: auto;
+    padding-bottom: 20px;
       /*PUSH*/
   }
   #company{
     width: 100%;
-    background-color: hotpink;
+    
     margin-top: 30px;
   }
 
