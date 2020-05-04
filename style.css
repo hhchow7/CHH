@@ -627,7 +627,7 @@ footer p{
   /*BG*/
   .section-light{
     
-    text-align: justify;
+    text-align: center;
     width: 100%;
     
   }
@@ -674,9 +674,9 @@ footer p{
     font-size: 25px;
   
   }
-  .companyDetail p{
+  #company p{
     /* margin: auto;  */
-     font-size: 15px;
+     font-size: 13px;
   
   }
 
