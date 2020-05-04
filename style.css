@@ -662,20 +662,24 @@ footer p{
     position: relative;
     min-height: 500px;
     text-align: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    /* margin: auto; */
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    margin: auto;
       /*PUSH*/
   }
- 
+  #company{
+    width: 100%;
+    background-color: hotpink;
+    margin-top: 30px;
+  }
 
   #company h3{
-   /* margin: auto; */
+   margin: auto;
     font-size: 25px;
   
   }
   #company p{
-    /* margin: auto;  */
+    margin: auto; 
      font-size: 13px;
   
   }
@@ -695,7 +699,7 @@ footer p{
  
   
   #skillGallery{
-   
+      
       float: none;
       display: inline;
   
