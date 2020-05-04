@@ -681,10 +681,18 @@ footer p{
   }
 
     /*SKILLS*/
-    #skill{
 
-      margin-bottom: 1000px;
-  }
+    .pimg3{
+      padding-top: 1000px;
+      min-height: 800px;
+    }
+
+    .pimg3 .ptext3 #asideHeader h3{
+
+        font-size: 45px;
+    }
+
+ 
   
   #skillGallery{
    
@@ -699,21 +707,21 @@ footer p{
   }
   
   .skillSet h3{
-      font-size: 17px;
+      font-size: 19px;
   }
   
   .skillSet img{
   
       margin: auto;
       border-radius: 60%;
-      width: 70px;; 
-      height: 70px;
+      width: 90px;; 
+      height: 90px;
   }
 
   /*PROJECT*/
   #project{
     
-    min-height: 1500px;
+    min-height: 1300px;
 }
 
 #project h3{
@@ -745,6 +753,12 @@ footer p{
   
 }
 
+.ptext3 .contactInfo{
+  color: black;
+  margin-top: 10px;
+  font-size: 25px;
+
+}
 
 }
 
