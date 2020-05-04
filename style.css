@@ -621,19 +621,18 @@ footer p{
 
   /*BG*/
   .section-light{
-    padding-left: 10px;
-    padding-right: 10px;
+    
     text-align: center;
     width: 100%;
     
   }
   .section-light h2{
     text-align: center;
-    font-size: 28px;
+    font-size: 32px;
   }
 
   .section-light p{
-    font-size: 30px;
+    font-size: 20px;
     color:grey;
   }
 
