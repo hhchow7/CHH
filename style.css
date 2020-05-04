@@ -65,8 +65,8 @@ body, html{
   }
   
   .section-light{
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
     margin: auto;
     background-color:#f4f4f4;
     color:#666;
@@ -661,7 +661,7 @@ footer p{
   .section-dark{
     position: relative;
     min-height: 500px;
-    text-align: justify;
+    text-align: center;
     /* padding-left: 20px;
     padding-right: 20px; */
     margin: auto;
@@ -675,8 +675,10 @@ footer p{
   }
 
   #company h3{
+    /* text-align: center; */
    margin: auto;
     font-size: 25px;
+    font-weight: bold;
   
   }
   #company p{
@@ -693,8 +695,11 @@ footer p{
     }
 
     .pimg3 .ptext3 #asideHeader h3{
-
+      text-align: center;
+      margin-top: -20px;
+        /* background-color: hotpink; */
         font-size: 45px;
+        
     }
 
  
