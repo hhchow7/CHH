@@ -743,12 +743,3 @@ footer p{
 }
 
 
-@media(max-width:600px){
-
-  #project{
-    
-    min-height: 1200px;
-}
-
-
-}
