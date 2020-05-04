@@ -661,7 +661,7 @@ footer p{
   .section-dark{
     position: relative;
     min-height: 500px;
-    text-align: center;
+    text-align: justify;
     /* padding-left: 20px;
     padding-right: 20px; */
     margin: auto;
@@ -669,7 +669,7 @@ footer p{
       /*PUSH*/
   }
   #company{
-    width: 100%;
+    width: 95%;
     
     margin-top: 30px;
   }
