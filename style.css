@@ -588,7 +588,7 @@ footer p{
   .pimg1, .pimg2, .pimg3,.pimg4{
     background-attachment:scroll;
     background-position: center;
-    background-size       : cover;
+    background-size       : 100%;
      top: 0; 
     left: 0; 
     
