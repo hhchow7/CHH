@@ -210,8 +210,6 @@ body, html{
  
 /*Home*/
 
-
-
  strong{
   
   font-family: "Georgia", Times, serif;
@@ -572,7 +570,7 @@ footer p{
 
 
 /* PHONE */
-@media(max-width:800px){
+@media(max-width:700px){
   .pimg1, .pimg2, .pimg3,.pimg4{
     background-attachment:scroll;
     background-position: center;
@@ -725,28 +723,44 @@ footer p{
   }
 
   /*PROJECT*/
+
   #project{
-    max-height: 850px;
+    /* display: flex;
+    line-height: 2px; */
+    padding-bottom: 0px;
+    padding-top: 10px;
+    background-color: lightcoral;
+    max-height: 400px;
+    position: relative;
 }
 
 #project h3{
-        padding-top: 50px;
+
         text-align: center;
         font-size:40px;
-        margin-bottom: 80px;
-
+        
 }
 
 .projectBox{
-
+    /* height: 80vh; */
     margin: auto;
     width: 95%;
     float: none;
-   
+    padding-bottom: 0px;
+}
+
+#iosProj{
+    background-color: lightgreen;
+    margin-bottom: 170px;  
+    margin-top: 50px; 
+}
+
+#WebProj{
+
 }
 
 .projectBox h5{
-  /* margin-top: 50px; */
+
     font-size: 28px;
 
 }
@@ -755,6 +769,23 @@ footer p{
 
     font-size: 20px;
   
+}
+
+.photoSlide_fyp{
+  margin: auto;
+  width: 65%;
+  height: 25%;
+}
+
+.photoSlide_web{
+
+  
+  height: 400px
+  
+}
+
+.pimg1{
+  margin: 0;
 }
 
 .pimg1 .ptext3{
@@ -790,7 +821,7 @@ footer p{
 
 @media(max-width:950px){
   .pimg1, .pimg2, .pimg3,.pimg4{
-    background-attachment:scroll;
+    background-attachment:fixed;
     background-position: center;
     background-size: cover;
     min-height: 100%; 
@@ -858,7 +889,7 @@ footer p{
 
   .section-dark{
     position: relative;
-    min-height: 600px;
+    min-height: 550px;
     text-align: center;
     
     padding-bottom: 20px;
