@@ -17,22 +17,15 @@ body, html{
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
-  
-    /*
-      fixed = parallax
-      scroll = normal
-    */
+
     background-attachment:fixed;
 
-    
-  
   }
 
   .container{
     padding-top: 10px;
     width: 80%;
     margin:auto;
-    /* overflow : hidden; */
 }
   
   .pimg1{
@@ -54,7 +47,6 @@ body, html{
 
     background-image:url('images//image4.JPG');
     height:100%;
-    /* overflow: auto; */
 
   }
 
@@ -92,13 +84,10 @@ body, html{
     width:100%;
     letter-spacing:2px;
     text-transform:uppercase;
-    /* padding-left: 0px; */
     font-size:20px;
   }
   
   .ptext{
-    /* margin: auto;
-    padding: 270px; */
 
     position:absolute;
     top:50%;
@@ -174,8 +163,6 @@ body, html{
     position:relative;
 
     letter-spacing: 1.5px;
-    
-    
     
   }
 
@@ -289,12 +276,6 @@ em{
   
 
 }
-
-.companyDetail{
-
-  /* text-align: center; */
-}
-
 
 /*Skill*/
 
@@ -727,7 +708,7 @@ footer p{
   }
   
   .skillSet{
-      /* margin: auto; */
+ 
       width: 50%;
   }
   
@@ -745,30 +726,27 @@ footer p{
 
   /*PROJECT*/
   #project{
- 
-    
     max-height: 850px;
-
 }
 
 #project h3{
-        padding-top: 35px;
+        padding-top: 50px;
         text-align: center;
         font-size:40px;
+        margin-bottom: 80px;
 
 }
 
 .projectBox{
-    
+
     margin: auto;
     width: 95%;
     float: none;
    
-
 }
 
 .projectBox h5{
-
+  /* margin-top: 50px; */
     font-size: 28px;
 
 }
