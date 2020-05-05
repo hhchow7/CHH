@@ -570,7 +570,7 @@ footer p{
 
 
 /* PHONE */
-@media(max-width:700px){
+@media(max-width:70px){
   .pimg1, .pimg2, .pimg3,.pimg4{
     background-attachment:scroll;
     background-position: center;
@@ -780,7 +780,7 @@ footer p{
 .photoSlide_web{
 
   
-  height: 400px
+  height: 350px;
   
 }
 
