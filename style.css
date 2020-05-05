@@ -17,7 +17,6 @@ body, html{
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
-
     background-attachment:fixed;
 
   }
@@ -731,7 +730,6 @@ footer p{
     line-height: 2px; */
     padding-bottom: 0px;
     padding-top: 10px;
-    background-color: lightcoral;
     max-height: 400px;
     position: relative;
 }
@@ -752,9 +750,8 @@ footer p{
 }
 
 #iosProj{
-    background-color: pink;
     margin-bottom: 170px;  
-    margin-top: 50px; 
+    margin-top: 80px; 
 }
 
 #WebProj{
