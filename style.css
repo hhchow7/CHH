@@ -92,7 +92,7 @@ body, html{
     width:100%;
     letter-spacing:2px;
     text-transform:uppercase;
-    padding-left: 0px;
+    /* padding-left: 0px; */
     font-size:20px;
   }
   
@@ -278,6 +278,7 @@ em{
   color:#C7C6C6;
   font-family: "Georgia", Times, serif;
   font-size: 30px;
+ 
 
 }
 #company p{
@@ -285,6 +286,7 @@ em{
   color:#C7C6C6;
   line-height: 40px;
   font-size: 20px;
+  
 
 }
 
@@ -647,10 +649,17 @@ footer p{
 
   .pimg2{
 
-    min-height: 600px;
+    min-height: 650px;
 
 
   }
+
+  .ptext2 #asideHeader{
+    
+    padding-top: 0px;
+    margin-bottom: 50px;
+}
+
   #school{
     float: none;
     width: 100%;
@@ -662,27 +671,29 @@ footer p{
 
   .section-dark{
     position: relative;
-    min-height: 500px;
+    min-height: 600px;
     text-align: center;
-    margin: auto;
+    
     padding-bottom: 20px;
   }
   #company{
+   
     width: 95%;
-    
-    margin-top: 30px;
+    float: none;
+    margin-top: 70px;
+   
   }
 
   #company h3{
 
    margin: auto;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: bold;
   
   }
   #company p{
     margin: auto; 
-     font-size: 13px;
+     font-size: 14px;
   
   }
 
