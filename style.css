@@ -322,6 +322,7 @@ em{
 
 .skillSet h3{
     font-size: 20px;
+    letter-spacing: 8px;
 }
 
 .skillSet img{
@@ -426,6 +427,7 @@ em{
     color: black;
     margin-top: 100px;
     font-size: 30px;
+    margin: auto;
 
 }
 
@@ -583,24 +585,17 @@ footer p{
 
 }
 
-
 @media(max-width:800px){
   .pimg1, .pimg2, .pimg3,.pimg4{
     background-attachment:scroll;
     background-position: center;
     background-size: cover;
-    
-    
-    /* margin: 0; */
     min-height: 100%; 
-    /* min-width: 100%; */
   }
 
   #navigationBar a{
     display: none;
   }
-
-  
 
   #asideHeader{
   
@@ -613,14 +608,10 @@ footer p{
 
   .pimg4{
 
-      /* width: 100vw; */
       
   }
 
   .ptext{
-    /* margin: auto;
-    padding: 270px; */
-    
     
     top:30%;
     width:80%;
@@ -673,11 +664,8 @@ footer p{
     position: relative;
     min-height: 500px;
     text-align: center;
-    /* padding-left: 20px;
-    padding-right: 20px; */
     margin: auto;
     padding-bottom: 20px;
-      /*PUSH*/
   }
   #company{
     width: 95%;
@@ -686,7 +674,7 @@ footer p{
   }
 
   #company h3{
-    /* text-align: center; */
+
    margin: auto;
     font-size: 25px;
     font-weight: bold;
@@ -708,7 +696,6 @@ footer p{
     .pimg3 .ptext3 #asideHeader h3{
       text-align: center;
       margin-top: -20px;
-        /* background-color: hotpink; */
         font-size: 45px;
         
     }
@@ -717,7 +704,6 @@ footer p{
   
   #skillGallery{
       margin: auto;
-      /* background-color: hotpink; */
       width: 95%;
       float: none;
       display: inline-block;
@@ -745,7 +731,7 @@ footer p{
   /*PROJECT*/
   #project{
     
-    min-height: 1300px;
+    min-height: 1480px;
 }
 
 #project h3{
@@ -761,7 +747,6 @@ footer p{
     width: 95%;
     float: none;
    
-  
 
 }
 
