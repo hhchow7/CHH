@@ -587,6 +587,7 @@ footer p{
 
 }
 
+/* PHONE */
 @media(max-width:800px){
   .pimg1, .pimg2, .pimg3,.pimg4{
     background-attachment:scroll;
@@ -742,7 +743,7 @@ footer p{
   /*PROJECT*/
   #project{
     
-    min-height: 1480px;
+    min-height: 500px;
 }
 
 #project h3{
@@ -781,5 +782,196 @@ footer p{
 }
 
 }
+
+
+
+
+
+
+
+
+
+/* Broswer Window */
+
+@media(max-width:950px){
+  .pimg1, .pimg2, .pimg3,.pimg4{
+    background-attachment:scroll;
+    background-position: center;
+    background-size: cover;
+    min-height: 100%; 
+  }
+
+  #navigationBar a{
+    /* display: none; */
+  }
+
+  #asideHeader{
+  
+    float: none;
+    width: 100%;
+    
+  }
+
+  /*Home*/
+
+  .pimg4{
+
+      
+  }
+
+  .ptext{
+    
+    top:50%;
+    width:80%;
+  }
+
+  /*BG*/
+  .section-light{
+    
+    text-align: center;
+    width: 100%;
+    
+  }
+  .section-light h2{
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .section-light p{
+    font-size: 20px;
+    /* color:grey; */
+  }
+
+  /*EDUCATION*/
+
+  .pimg2{
+    min-height: 650px;
+  }
+
+  .ptext2 #asideHeader{
+    
+    padding-top: 0px;
+    margin-bottom: 50px;
+}
+
+  #school{
+    float: none;
+    width: 100%;
+  }
+
+  /*EMPLOYMNET*/
+
+  .section-dark{
+    position: relative;
+    min-height: 600px;
+    text-align: center;
+    
+    padding-bottom: 20px;
+  }
+  #company{
+   
+    width: 95%;
+    float: none;
+    margin-top: 70px;
+   
+  }
+
+  #company h3{
+
+   margin: auto;
+    font-size: 24px;
+    font-weight: bold;
+  
+  }
+  #company p{
+    margin: auto; 
+     font-size: 18px;
+  
+  }
+
+    /*SKILLS*/
+
+    .pimg3{
+      padding-top: 1000px;
+      min-height: 800px;
+    }
+
+    .pimg3 .ptext3 #asideHeader h3{
+      text-align: center;
+      margin-top: -20px;
+        font-size: 45px;
+        
+    }
+
+  
+  #skillGallery{
+      margin: auto;
+      width: 95%;
+      float: none;
+      display: inline-block;
+      box-sizing: border-box;
+  
+  }
+  
+  .skillSet{
+
+      width: 50%;
+  }
+  
+  .skillSet h3{
+      font-size: 21px;
+  }
+  
+  .skillSet img{
+  
+      margin: auto;
+      border-radius: 60%;
+      width: 100px;; 
+      height: 100px;
+  }
+
+  /*PROJECT*/
+  #project{
+    
+    min-height: 1700px;
+}
+
+#project h3{
+        padding-top: 35px;
+        text-align: center;
+        font-size:40px;
+
+}
+
+.projectBox{
+    
+    margin: auto;
+    width: 95%;
+    float: none;
+   
+
+}
+
+.projectBox h5{
+
+    font-size: 28px;
+
+}
+
+.projectBox p{
+
+    font-size: 20px;
+  
+}
+
+.ptext3 .contactInfo{
+  color: black;
+  margin-top: 10px;
+  font-size: 25px;
+
+}
+
+}
+
 
 
