@@ -728,12 +728,12 @@ footer p{
   /*PROJECT*/
 
   #project{
-    /* display: flex;
-    line-height: 2px; */
+
     padding-bottom: 0px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     max-height: 400px;
     position: relative;
+    top:50px;
 }
 
 #project h3{
