@@ -9,6 +9,7 @@ function checkLogin(user, pw) {
   }
 }
 
+
        /*Star rating*/
         
        const ratings = {

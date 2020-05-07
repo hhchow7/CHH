@@ -144,12 +144,13 @@ body, html{
      justify-content: center;
     background-color: black;
     z-index: 99;
-    /* margin-bottom: 30px; */
+    
 }
+
+
 
 #navigationBar a {
 
-  
     text-transform: uppercase;
     margin:3px;
     overflow: hidden;
@@ -206,6 +207,7 @@ body, html{
   .sticky + .content {
     padding-top: 60px;
   }
+
  
 /*Home*/
 
@@ -572,7 +574,7 @@ footer p{
 
 /* PHONE */
 @media(max-width:700px){
-  .pimg1, .pimg2, .pimg3,.pimg4{
+  .pimg1, .pimg2, .pimg3{
     /* background-attachment: scroll; */
     background-position: center;
     background-size: cover;
@@ -580,10 +582,21 @@ footer p{
     min-height: 100%; 
   }
 
+  .pimg4{
+  
+     background-position: right;
+     background-size: cover;
+     background-repeat: no-repeat;
+     min-height: 100%; 
+    background-image: url('images/P_20180601_194103.jpg');
+  }
+ 
+
   #navigationBar a{
     display: none;
   }
 
+  
   #asideHeader{
   
     float: none;
@@ -595,13 +608,14 @@ footer p{
 
   .pimg4{
 
-      
+     
   }
 
   .ptext{
-   
-    top:30%;
+    display: block;
+    top:35% !important;
     width:80%;
+    margin: auto;
   }
 
   strong{
@@ -730,10 +744,9 @@ footer p{
   #project{
 
     padding-bottom: 0px;
-    /* padding-top: 10px; */
-    max-height: 400px;
+    max-height: 400px; 
     position: relative;
-    top:50px;
+    top:50px ;
 }
 
 #project h3{
@@ -749,6 +762,8 @@ footer p{
     width: 95%;
     float: none;
     padding-bottom: 0px;
+
+
 }
 
 #iosProj{
@@ -780,7 +795,6 @@ footer p{
 
 .photoSlide_web{
 
-  
   height: 50%;
   
 }
@@ -803,16 +817,7 @@ footer p{
 }
 
 
-
-
 }
-
-
-
-
-
-
-
 
 
 /* Broswer Window */
