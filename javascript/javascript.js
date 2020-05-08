@@ -9,7 +9,6 @@ function checkLogin(user, pw) {
   }
 }
 
-
        /*Star rating*/
         
        const ratings = {
@@ -92,4 +91,54 @@ function carousel() {
   
 }
 
+
+
+
+
+
+
+$(document).on('scroll', function() {
+  
+ 
+  if($(this).scrollTop()>=$('#Home').position().top + (-100)){
+    changeNavStyle('Home');
+  }
+   if($(this).scrollTop()>=$('#background').position().top + (-60)){
+    changeNavStyle('background');
+  }
+  if($(this).scrollTop()>=$('#education').position().top + (-60)){
+    changeNavStyle('education');
+  }
+  if($(this).scrollTop()>=$('#employment').position().top + (-60)){
+    changeNavStyle('employment');
+  }
+   if($(this).scrollTop()>=$('#skill').position().top + (-60)){
+    changeNavStyle('skill');
+  }
+   if($(this).scrollTop()>=$('#project').position().top + (-60)){
+    changeNavStyle('project');
+  }
+   if($(this).scrollTop()>=$('#other').position().top + (-60)){
+    changeNavStyle('other');
+  }
+
+
+
+});
+
+
+function changeNavStyle(navID){
+
+  //remove previous active nav
+  var activeBarItem = document.getElementsByClassName("activeNav");
+  while (activeBarItem.length)
+  activeBarItem[0].classList.remove("activeNav");
+
+    //add active nav
+    var element = document.querySelector("#navigationBar");
+    var childElement=element.querySelector('a[href="#'+ CSS.escape(navID) + '"]');
+    childElement.classList.add("activeNav");
+
+
+}
 
